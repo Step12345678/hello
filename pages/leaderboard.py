@@ -27,7 +27,7 @@ df = pd.read_csv("final.csv")
 # Display Points Leaders
 st.subheader("Points Leaders")
 points_df = df[['name', 'career_PTS']]
-st.dataframe(points_df.sort_values(by=["career_PTS"]))
+st.dataframe(points_df.sort_values(by=["career_PTS"],ascending = False))
 
 # Display Rebounds Leaders
 st.subheader("Rebounds Leaders")
