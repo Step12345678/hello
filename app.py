@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_extras.switch_page_button import switch_page
 
 st.title("PER vs Salary")
-st.image("/Users/tanayrai/Downloads/palm-tree-sunset-basketball-hoop-hwnjg9y6ee0i1ppj.jpg")
+st.image("palm-tree-sunset-basketball-hoop-hwnjg9y6ee0i1ppj.jpg")
 st.markdown("""
 This site was created using HTML, python and streamlit to show idetify the correlation between Salary and PER (player efficiency rating).It is claimed that great players have a high PER and get paid more. Let's find out if this is true... 
 
