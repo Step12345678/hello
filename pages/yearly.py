@@ -170,7 +170,7 @@ with row9[9]:
         if st.button("2011"):
                 df1 = data()
                 st.dataframe(df1[df1["draft_year"] == "2011"])
-with row9[9]:
+with row13[9]:
         if st.button("2012"):
                 df1 = data()
                 st.dataframe(df1[df1["draft_year"] == "2012"])
