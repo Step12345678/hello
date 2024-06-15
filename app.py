@@ -20,7 +20,7 @@ with col[2]:
 		switch_page("position")
 st.header("About me!")
 
-st.image("/Users/tanayrai/Downloads/IMG_1390.jpg")
+st.image("IMG_1390.jpg")
 st.markdown("""
 I am a basketball player of many years, my love for maths and sports specifically basketball has lead me to create this website to express a new cool i$
 """)
