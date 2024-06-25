@@ -8,7 +8,7 @@ st.markdown("""
 This site was created using HTML, python and streamlit to show idetify the correlation between Salary and PER (player efficiency rating).It is claimed that great players have a high PER and get paid more. Let's find out if this is true... 
 
 """)
-col = st.columns([0.5,0.5,0.3])
+col = st.columns(4)
 with col[0]:
 	if st.button("Yearly stats"):
 		switch_page("yearly")
@@ -18,6 +18,10 @@ with col[1]:
 with col[2]:
 	if st.button("Position Stats"):
 		switch_page("position")
+with col[3]:
+	if st.button("Fantasy"):
+		switch_page("fantc")
+st.write("---")
 st.header("About me!")
 
 st.image("IMG_1390.jpg")
