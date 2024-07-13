@@ -3,7 +3,20 @@ import streamlit as st
 from streamlit_extras.switch_page_button import switch_page
 import streamlit_analytics
 
+
 with streamlit_analytics.track():
+	st.markdown('''
+    	<style>
+    	.st-emotion-cache-1jzia57.e1nzilvr2 #danger-zone
+    	{
+        display: none;
+    	}
+    	.st-emotion-cache-p5msec.eqpbllx1
+    	{
+        display: none;
+    	}
+    	</style>
+    	''',unsafe_allow_html=True)
 	st.title("PER vs Salary")
 	st.image("palm-tree-sunset-basketball-hoop-hwnjg9y6ee0i1ppj.jpg")
 	st.markdown("""
