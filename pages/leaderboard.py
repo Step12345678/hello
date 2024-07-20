@@ -35,37 +35,37 @@ with streamlit_analytics.track():
          # Display Rebounds Leaders
          st.subheader("Rebounds Leaders")
          rebounds_df = df[['name', 'career_TRB']]
-         st.dataframe(rebounds_df)
+         st.dataframe(rebounds_df.sort_values(by=["career_TRB"],ascending = False))
          
          # Display Assists Leaders
          st.subheader("Assists Leaders")
          assists_df = df[['name', 'career_AST']]
-         st.dataframe(assists_df)
+         st.dataframe(assists_df.sort_values(by=["career_AST"],ascending = False))
          
          # Display Player Efficiency Rating Leaders
          st.subheader("Player Efficiency Rating (PER) Leaders")
          per_df = df[['name', 'career_PER']]
-         st.dataframe(per_df)
+         st.dataframe(per_df.sort_values(by=["career_PER"],ascending = False))
          
          # Display Field Goal Percentage Leaders
          st.subheader("Field Goal Percentage (FG%) Leaders")
          fg_df = df[['name', 'career_FG%']]
-         st.dataframe(fg_df)
+         st.dataframe(fg_df.sort_values(by=["career_FG%"],ascending = False))
          
          # Display Three-Point Field Goal Percentage Leaders
          st.subheader("Three-Point Field Goal Percentage (FG3%) Leaders")
          fg3_df = df[['name', 'career_FG3%']]
-         st.dataframe(fg3_df)
+         st.dataframe(fg3_df.sort_values(by=["career_FG3%"],ascending = False))
          
          # Display Free Throw Percentage Leaders
          st.subheader("Free Throw Percentage (FT%) Leaders")
          ft_df = df[['name', 'career_FT%']]
-         st.dataframe(ft_df)
+         st.dataframe(ft_df.sort_values(by=["career_FT%"],ascending = False))
          
          # Display Win Shares Leaders
          st.subheader("Win Shares (WS) Leaders")
          ws_df = df[['name', 'career_WS']]
-         st.dataframe(ws_df)
+         st.dataframe(ws_df.sort_values(by=["career_WS"],ascending = False))
          
          
           
