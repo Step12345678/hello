@@ -24,14 +24,12 @@ with streamlit_analytics.track():
          # Load the data
          df = pd.read_csv("final.csv")
          with col[0]:
-             if st.button("home", use_container_width=True):
-                 switch_page("app")
-                  # Display Points Leaders
-                  st.subheader("Points Leaders")
-                  points_df = df[['name', 'career_PTS']]
-                  st.dataframe(points_df.sort_values(by=["career_PTS"],ascending = False))
+                  if st.button("home", use_container_width=True):
+                           switch_page("app")
+                           st.subheader("Points Leaders")
+                           points_df = df[['name', 'career_PTS']]
+                           st.dataframe(points_df.sort_values(by=["career_PTS"],ascending = False))
          with col[1]:
-                  # Display Rebounds Leaders
                   st.subheader("Rebounds Leaders")
                   rebounds_df = df[['name', 'career_TRB']]
                   st.dataframe(rebounds_df.sort_values(by=["career_TRB"],ascending = False))
