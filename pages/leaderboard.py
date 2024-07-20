@@ -22,8 +22,10 @@ with streamlit_analytics.track():
          
          # Load the data
          df = pd.read_csv("final.csv")
-         if st.button("home", use_container_width=True):
-                           switch_page("app")
+         col_home = st.columns(10)
+         with col_home[0]:
+                  if st.button("home", use_container_width=True):
+                                    switch_page("app")
          col = st.columns(2)
          with col[0]:
                   st.subheader("Points Leaders")
