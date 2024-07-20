@@ -9,7 +9,7 @@ with streamlit_analytics.track():
                   f"""
                   <style>
                   .stApp {{
-                      background: url("https://fadeawayworld.net/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTgwMTMyNzAxOTQ4MDI4MDI2/top-10-greatest-leaders-in-nba-history.jpg");
+                      background: url("https://img.freepik.com/premium-photo/rainy-night-basketball-closeup-urban-sports-atmosphere_916860-4819.jpg");
                       background-size: cover
                   }}
                   </style>
