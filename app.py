@@ -17,7 +17,7 @@ with streamlit_analytics.track():
     	}
     	</style>
     	''',unsafe_allow_html=True)
-	st.title("PER vs Salary")
+	st.title("NBA Analysis")
 	st.image("palm-tree-sunset-basketball-hoop-hwnjg9y6ee0i1ppj.jpg")
 	st.markdown("""
 	This site was created using Python, Streamlit and HTML in order to create pages showing how we can classify past NBA players data. On top of this, we have created a fantasy game which the user can interact with.  
