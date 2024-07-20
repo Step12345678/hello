@@ -20,7 +20,7 @@ with streamlit_analytics.track():
 	st.title("PER vs Salary")
 	st.image("palm-tree-sunset-basketball-hoop-hwnjg9y6ee0i1ppj.jpg")
 	st.markdown("""
-	This site was created using HTML, python and streamlit to show idetify the correlation between Salary and PER (player efficiency rating).It is claimed that great players have a high PER and get paid more. Let's find out if this is true... 
+	This site was created using Python, Streamlit and HTML in order to create pages showing how we can classify past NBA players data. On top of this, we have created a fantasy game which the user can interact with.  
 	
 	""")
 	col = st.columns(4)
@@ -41,7 +41,7 @@ with streamlit_analytics.track():
 	
 	st.image("IMG_1390.jpg")
 	st.markdown("""
-	I am a basketball player of many years, my love for maths and sports specifically basketball has lead me to create this website to express a new cool i$
+	I am a basketball player of many years, my love for math and sports specifically basketball has lead me to create this website with a passion
 	""")
 	st.header("Get in touch with me!")
 	
