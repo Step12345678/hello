@@ -19,28 +19,28 @@ with streamlit_analytics.track():
          
          #st.set_page_config(layout="wide")
          col = st.columns(10)
-         with col[0]:
-             if st.button("home", use_container_width=True):
-                 switch_page("app")
          background_image = 'https://fadeawayworld.net/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTgwMTMyNzAxOTQ4MDI4MDI2/top-10-greatest-leaders-in-nba-history.jpg'
          
          # Load the data
          df = pd.read_csv("final.csv")
-         
-         # Display Points Leaders
-         st.subheader("Points Leaders")
-         points_df = df[['name', 'career_PTS']]
-         st.dataframe(points_df.sort_values(by=["career_PTS"],ascending = False))
-         
-         # Display Rebounds Leaders
-         st.subheader("Rebounds Leaders")
-         rebounds_df = df[['name', 'career_TRB']]
-         st.dataframe(rebounds_df.sort_values(by=["career_TRB"],ascending = False))
-         
-         # Display Assists Leaders
-         st.subheader("Assists Leaders")
-         assists_df = df[['name', 'career_AST']]
-         st.dataframe(assists_df.sort_values(by=["career_AST"],ascending = False))
+         with col[0]:
+             if st.button("home", use_container_width=True):
+                 switch_page("app")
+                  # Display Points Leaders
+                  st.subheader("Points Leaders")
+                  points_df = df[['name', 'career_PTS']]
+                  st.dataframe(points_df.sort_values(by=["career_PTS"],ascending = False))
+         with col[1]:
+                  # Display Rebounds Leaders
+                  st.subheader("Rebounds Leaders")
+                  rebounds_df = df[['name', 'career_TRB']]
+                  st.dataframe(rebounds_df.sort_values(by=["career_TRB"],ascending = False))
+
+         with col[2]:
+                  # Display Assists Leaders
+                  st.subheader("Assists Leaders")
+                  assists_df = df[['name', 'career_AST']]
+                  st.dataframe(assists_df.sort_values(by=["career_AST"],ascending = False))
          
          # Display Player Efficiency Rating Leaders
          st.subheader("Player Efficiency Rating (PER) Leaders")
