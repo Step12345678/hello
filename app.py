@@ -35,7 +35,7 @@ with streamlit_analytics.track():
 			switch_page("position")
 	with col[3]:
 		if st.button("Fantasy"):
-			switch_page("fantc2")
+			switch_page("fantacy")
 	st.write("---")
 	st.header("About me!")
 	
