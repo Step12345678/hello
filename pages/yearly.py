@@ -8,7 +8,7 @@ with streamlit_analytics.track():
 	         f"""
 	         <style>
 	         .stApp {{
-	             background: url("https://images.eurohoops.net/2022/08/b0bb202a-nba-primetime-schedule.jpg");
+	             
 	             background-size: cover
 	         }}
 	         </style>
