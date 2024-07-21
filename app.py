@@ -41,7 +41,7 @@ with streamlit_analytics.track():
 	
 	st.image("IMG_1390.jpg")
 	st.markdown("""
-	I am a basketball player of many years, my love for math and sports specifically basketball has lead me to create this website with a passion
+	Welcome to my basketball website! As someone who has played basketball since childhood, I created this site to share my passion for the game through comprehensive statistical data. Explore the detailed stats of basketball players, from past to current in order to gain insights into the numbers that define their careers. Whether you're a fan, a player, or a stats enthusiast, I hope this site enhances your appreciation of the game as much as it has for me. Enjoy diving into the data!
 	""")
 	st.header("Get in touch with me!")
 	
