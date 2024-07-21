@@ -8,7 +8,7 @@ with streamlit_analytics.track():
 	         f"""
 	         <style>
 	         .stApp {{
-	             
+	             background: url("https://cdn.nba.com/next/fallback.jpg");
 	             background-size: cover
 	         }}
 	         </style>
