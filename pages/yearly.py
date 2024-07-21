@@ -8,7 +8,7 @@ with streamlit_analytics.track():
 	         f"""
 	         <style>
 	         .stApp {{
-	             background: url("https://cdn.nba.com/next/fallback.jpg");
+	             background: url("https://img.buzzfeed.com/buzzfeed-static/static/2024-03/1/23/campaign_images/f3986abc0af5/former-nba-scorekeeper-admits-to-juicing-stars-st-5-959-1709335280-0_16x9.jpg");
 	             background-size: cover
 	         }}
 	         </style>
